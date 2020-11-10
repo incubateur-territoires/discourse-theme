@@ -54,4 +54,4 @@ Distributed under the GPL License. See `LICENSE` for more information.
 
 ## Contact
 
-Project Link: [https://github.com/betagouv/theme-itou-discourse](https://github.com/betagouv/theme-itou-discourse)
+Project Link: [https://github.com/betagouv/itou-theme-discourse](https://github.com/betagouv/itou-theme-discourse)

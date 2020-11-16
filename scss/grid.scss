@@ -1,0 +1,21 @@
+@mixin grid($width) {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  flex: 0 1 auto;
+
+  max-width: $width;
+  margin: 0 auto;
+
+}
+
+@mixin column($columns, $gutter) {
+  box-sizing: border-box;
+  flex: $columns $columns auto;
+  flex-basis: $columns;
+  max-width: $columns;
+
+  padding-right: $gutter;
+  padding-left: $gutter;
+  padding-bottom: $gutter*2;
+}

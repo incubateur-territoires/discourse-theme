@@ -1,0 +1,34 @@
+@import "colors";
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+    background-color: #4f4f4f;
+    color: white;
+    padding: 40px;
+
+    a {
+      color: $white;
+      text-decoration: underline;
+    }
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-logo-column {
+  .logo {
+    width: 89px;
+    height: 82px;
+    background: $white;
+    background-image: url($logo_ministere_travail);
+    background-size: cover;
+  }
+}

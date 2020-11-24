@@ -29,6 +29,7 @@ To get a local copy up and running or to use this in production, follow these si
     - your forum URL
     - your API key
  - run `discourse_theme watch /home/itou/theme-itou-discourse`
+ - if you want to see the mobile view, go to `http://localhost:3000?mobile_view=1`
 
 Now, every change made to the theme will be updated on the forum.
 If changes are not picked up, you may need to ensure the right theme is being used.
@@ -37,6 +38,18 @@ If changes are not picked up, you may need to ensure the right theme is being us
 
  - Import the theme in the admin panel (in `admin/customize/themes`) by providing this Git repository
  - More info in the [official documentation](https://meta.discourse.org/t/developer-s-guide-to-discourse-themes/93648)
+
+### Documentation
+
+If you are getting started making a discourse theme, I’ve found these links to be useful:
+
+ - [Developper’s Guide to Discourse Themes](https://meta.discourse.org/t/developer-s-guide-to-discourse-themes/93648)
+ - [The pluginApi source code](https://github.com/discourse/discourse/blob/master/app/assets/javascripts/discourse/app/lib/plugin-api.js)
+ - [Designer’s Guide to Discourse Themes](https://meta.discourse.org/t/designers-guide-to-discourse-themes/152002)
+ - [Beginners’ guide to using Theme Creator and Theme CLI to start building a Discourse theme](https://meta.discourse.org/t/beginners-guide-to-using-theme-creator-and-theme-cli-to-start-building-a-discourse-theme/108444)
+ - [Structure of themes and theme components](https://meta.discourse.org/t/structure-of-themes-and-theme-components/60848)
+ - [How to add custom content that only appears on your homepage](https://meta.discourse.org/t/how-to-add-custom-content-that-only-appears-on-your-homepage/131415)
+ - [Splitting up theme SCSS into multiple files](https://meta.discourse.org/t/splitting-up-theme-scss-into-multiple-files/115126)
 
 ## Contributing
 

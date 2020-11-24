@@ -1,5 +1,12 @@
 {
   "name": "Theme discourse ITOU",
   "about_url": "https://github.com/betagouv/itou-theme-discourse/blob/master/README.md",
-  "license_url": "https://github.com/betagouv/itou-theme-discourse/blob/master/LICENSE"
+  "license_url": "https://github.com/betagouv/itou-theme-discourse/blob/master/LICENSE",
+  "assets": {
+      "bg_cta_visio_echange_image": "assets/bandeau-visio.jpg",
+      "icon_arrow": "assets/ico-arrow.svg",
+      "icon_category": "assets/ico-category.svg",
+      "icon_salon_visio": "assets/ico-salon.svg",
+      "icon_collaboration": "assets/ico-collaboration.svg"
+   }
 }

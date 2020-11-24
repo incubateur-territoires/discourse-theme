@@ -1,0 +1,79 @@
+@import "colors";
+@import "grid";
+
+.visio-and-category-container {
+  background-image: url($bg_cta_visio_echange_image);
+  min-height: 180px;
+  font-family: 'Roboto', sans-serif;
+
+  color: $white;
+
+  $gutter: 15px;
+
+  @include grid(100%);
+
+  .cta-container {
+    @include column(25%, $gutter);
+    min-width: 25%;
+
+    .cta-box{
+      border-radius: 3px;
+      color: $black;
+      background-color: $white;
+      box-shadow: 4px 4px 20px 0 rgba(0,0,0,0.05);
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 19px;
+      text-align: center;
+      margin-top: $gutter;
+      padding: $gutter;
+
+      .icon-container {
+        height: 42px;
+      }
+
+      p {
+        color: $black;
+        font-family: Roboto;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 19px;
+        text-align: center;
+      }
+
+      .cta {
+        display: inline-block;
+        min-width: 180px;
+        box-sizing: border-box;
+        border: 1px solid $darkgreen;
+        border-radius: 4px 3px 3px 4px;
+        background-color: $white;
+        color: $darkgreen;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 16px;
+        text-transform: uppercase;
+        padding: 10px 10px 10px 10px;
+        vertical-align: center;
+      }
+    }
+  }
+
+  .explanation {
+    @include column(50%, $gutter);
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 33px;
+    margin-top: 15px;
+
+    b {
+      font-weight: 800;
+    }
+  }
+
+  .bold {
+    font-weight: bolder;
+  }
+}

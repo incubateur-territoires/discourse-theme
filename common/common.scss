@@ -1,30 +1,22 @@
-.footer {
-    background-color: #4f4f4f;
-    color: white;
-    padding: 20px;
-    display: flex;
+.icon-arrow {
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  background-image: url($icon_arrow);
 }
 
-.footer-logo-column {
-    flex: 1;
-	padding: 20px;
-    min-width: 140px;
-    max-width: 140px;
-    max-height: 130px;
-    background: #fff;
-    margin: 0 0 20px 0;
+.icon-salon-visio {
+  display: inline-block;
+  width: 47px;
+  height: 41px;
+  background-image: url($icon_salon_visio);
 }
 
-.footer-row {
-  flex-direction: row;
-  flex-wrap: nowrap;
+.icon-collaboration {
+  display: inline-block;
+  width: 48px;
+  height: 34px;
+  background-image: url($icon_collaboration);
 }
 
-.footer-column {
-  flex: 1;
-}
-
-.footer-text-column {
-  flex: 1;
-  flex-basis: 25%;
-}
+@import "common/visio-and-category-container";

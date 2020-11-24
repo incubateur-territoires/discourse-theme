@@ -4,6 +4,7 @@
   "license_url": "https://github.com/betagouv/itou-theme-discourse/blob/master/LICENSE",
   "assets": {
       "bg_cta_visio_echange_image": "assets/bandeau-visio.jpg",
+      "bg_search_home_image": "assets/visuels-home.jpg",
       "icon_arrow": "assets/ico-arrow.svg",
       "icon_category": "assets/ico-category.svg",
       "icon_salon_visio": "assets/ico-salon.svg",

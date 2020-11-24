@@ -12,6 +12,18 @@
   background-image: url($icon_arrow);
 }
 
+.icon-salon-visio {
+  display: inline-block;
+  width: 47px;
+  height: 41px;
+  background-image: url($icon_salon_visio);
+}
 
+.icon-collaboration {
+  display: inline-block;
+  width: 48px;
+  height: 34px;
+  background-image: url($icon_collaboration);
+}
 
 @import "common/visio-and-category-container";

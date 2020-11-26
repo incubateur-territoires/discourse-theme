@@ -1,0 +1,43 @@
+@import "colors";
+
+#home-services {
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-family: 'Roboto', sans-serif;
+
+  h2 {
+    font-size: 2em;
+    font-weight: normal;
+  }
+
+  .service-list {
+    min-height: 15vh;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-items: center;
+  }
+
+  .service {
+    max-width: 300px;
+    p {
+      font-weight: bold;
+    }
+    .cta {
+      color: $darkgreen;
+      text-transform: uppercase;
+      align-self: end;
+    }
+  }
+}
+
+@media screen and (max-width: 621px) {
+  #home-services {
+    .service {
+      min-height: 10vh;
+      /* has a meaning with a grid system */
+    }
+  }
+}

@@ -1,5 +1,9 @@
 @import "colors";
+@import "button";
 
+$spacing-between-rows: 15px;
+
+// left side: categories
 .category-list td.topics {
   vertical-align: middle;
 }
@@ -9,14 +13,17 @@
 
 .categories table {
   border-collapse:separate;
-  border-spacing: 0 15px;
+  border-spacing: 0 $spacing-between-rows;
 }
 
-.categories th {
-  color: $black;
-  font-size: 28px;
-  font-weight: bold;
-  font-family: "Roboto", sans-serif;
+.categories-and-latest
+{
+  div[aria-role="heading"] {
+    color: $black;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+  }
 }
 
 .categories {
@@ -26,5 +33,72 @@
   a.visit-category {
     text-transform: uppercase;
     color: $darkgreen;
+  }
+}
+
+// right side: latest messages
+.latest-topic-list {
+  .table-heading {
+    color: $black;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    padding: 5px 12px;
+  }
+}
+
+.latest-topic-list {
+  .bottom-row {
+    @include grid(100%);
+  }
+
+  .row {
+    @include column(33%, 5px);
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+
+  .table-heading {
+    border-bottom: none;
+  }
+}
+
+.latest-topic-list-item .main-link {
+  max-width: 100%;
+  width: 100%;
+}
+
+
+.latest-topics {
+  td{
+    .topic-title{
+      font-family: "Roboto" sans-serif;
+      font-size: 16px;
+      padding-bottom: 10px;
+    }
+    .topic-info {
+      padding: 0.5em;
+
+      .bottom-row {
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .topic {
+    min-height: 70px;
+  }
+  .topic-solved {
+    min-width: 88px;
+    background-color: $verylightgreen;
+    align-self: stretch;
+    text-align: center;
+  }
+}
+
+.more-topics {
+  .btn {
+    @include cta-button;
   }
 }

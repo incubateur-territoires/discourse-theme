@@ -1,0 +1,18 @@
+@import "colors";
+
+@mixin cta-button {
+  & {
+    padding: 0px 10px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: $darkgreen;
+    border: 1px solid $darkgreen;
+    text-transform: uppercase;
+  }
+  &:hover {
+    color: $white;
+    background: $darkgreen;
+  }
+}

@@ -1,12 +1,7 @@
+<div>&nbsp;</div>
 {{#if categories}}
   {{#if filteredCategories}}
     <table class="category-list {{if showTopics "with-topics"}}">
-      <thead>
-        <tr>
-          <th class="category"><span aria-role="heading" aria-level="2" id="categories-only-category">Les catégories</span></th>
-          <th class="topics">&nbsp;</th>
-        </tr>
-      </thead>
       <tbody aria-labelledby="categories-only-category">
         {{#each categories as |category|}}
           {{parent-category-row category=category showTopics=showTopics}}

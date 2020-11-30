@@ -1,5 +1,6 @@
 @import "colors";
 @import "grid";
+@import "button";
 
 .visio-and-category-container {
   background-image: url($bg_cta_visio_echange_image);
@@ -46,16 +47,8 @@
         display: inline-block;
         min-width: 180px;
         box-sizing: border-box;
-        border: 1px solid $darkgreen;
-        border-radius: 4px 3px 3px 4px;
-        background-color: $white;
-        color: $darkgreen;
-        font-size: 14px;
-        letter-spacing: 0;
-        line-height: 16px;
-        text-transform: uppercase;
-        padding: 10px 10px 10px 10px;
-        vertical-align: center;
+
+        @include cta-button;
       }
     }
   }

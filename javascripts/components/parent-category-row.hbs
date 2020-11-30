@@ -19,17 +19,7 @@
       {{/if}}
     </td>
     <td class="topics">
-      <div title={{category.statTitle}}>{{html-safe category.stat}}</div>
-      {{category-unread category=category tagName="div" class="unread-new"}}
+      <div title={{category.statTitle}}><a href="{{c.url}}">J’y vais</a></div>
     </td>
-    {{#unless isMuted}}
-      {{#if showTopics}}
-        <td class="latest">
-          {{#each category.featuredTopics as |t|}}
-            {{featured-topic topic=t latestTopicOnly=latestTopicOnly}}
-          {{/each}}
-        </td>
-      {{/if}}
-    {{/unless}}
   </tr>
 {{/unless}}

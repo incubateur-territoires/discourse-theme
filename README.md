@@ -50,6 +50,7 @@ If you are getting started making a discourse theme, I’ve found these links to
  - [Structure of themes and theme components](https://meta.discourse.org/t/structure-of-themes-and-theme-components/60848)
  - [How to add custom content that only appears on your homepage](https://meta.discourse.org/t/how-to-add-custom-content-that-only-appears-on-your-homepage/131415)
  - [Splitting up theme SCSS into multiple files](https://meta.discourse.org/t/splitting-up-theme-scss-into-multiple-files/115126)
+ - [Splitting up theme Javascript into multiple files](https://meta.discourse.org/t/splitting-up-theme-javascript-into-multiple-files/119369)
 
 ## Contributing
 

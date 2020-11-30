@@ -1,0 +1,30 @@
+@import "colors";
+
+.category-list td.topics {
+  vertical-align: middle;
+}
+.category-list tbody tr {
+  box-shadow: 4px 2px 20px 0 rgba(0,0,0,0.1);
+}
+
+.categories table {
+  border-collapse:separate;
+  border-spacing: 0 15px;
+}
+
+.categories th {
+  color: $black;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.categories {
+  .visit-category-container {
+    // display: inline-grid;
+  }
+  a.visit-category {
+    text-transform: uppercase;
+    color: $darkgreen;
+  }
+}

@@ -10,9 +10,9 @@
       "icon_salon_visio": "assets/ico-salon.svg",
       "icon_collaboration": "assets/ico-collaboration.svg",
       "icon_done": "assets/icon-done.svg",
-      "icon_eye": "assets/icon-eye.png",
-      "icon_calendar": "assets/icon-calendar.png",
-      "icon_talk": "assets/icon-talk.png",
+      "icon_eye": "assets/ico-eyes.svg",
+      "icon_calendar": "assets/ico-calendar.svg",
+      "icon_talk": "assets/ico-messages.svg",
       "logo_ministere_travail": "assets/logo_ministere_du_travail.svg"
    }
 }

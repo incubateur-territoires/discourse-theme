@@ -22,7 +22,7 @@
 }
 
 .icon-eye {
-  @include icon_from_assets($icon_eye, 16px, 10px);
+  @include icon_from_assets($icon_eye, 17px, 10px);
   background-size:cover;
 }
 

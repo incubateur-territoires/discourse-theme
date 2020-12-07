@@ -1,0 +1,57 @@
+{{#if topics}}
+<table class="latest-topics">
+  <thead>
+    <tr>
+      <th class="latest-topics">
+        &nbsp;
+      </th>
+      <th class="topics">Résolu</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each topics as |topic|}}
+      <tr style="border-left:6px solid #{{topic.category.color}}" class="">
+        <td>
+          <div class="topic-info">
+            <div class="top-row topic-title">
+              {{raw "topic-status" topic=topic}}
+              {{topic-link topic}}
+              {{#if topic.featured_link}}
+                {{topic-featured-link topic}}
+              {{/if}}
+              {{topic-post-badges newPosts=topic.totalUnread unseen=topic.unseen url=topic.lastUnreadUrl}}
+            </div>
+            <div class="bottom-row">
+              <span class="row">
+                <span title={{topic.bumpedAtTitle}}><i class="icon-calendar"></i>&nbsp;{{format-date topic.bumpedAt format="tiny" noTitle="true"}}</span>
+              </span>
+              <span class="row">
+                <i class="icon-eye"></i>&nbsp;{{number topic.views numberKey="views_long"}} vue(s)
+              </span>
+              <span class="row">
+                <span title="{{ topic.replyCount }} réponses">
+                <i class="icon-talk"></i>&nbsp;{{number topic.replyCount noTitle="true" ariaLabel=view.title}} réponse(s)
+                </span>
+              </span>
+            </div>
+          </div>
+        </td>
+        <td class="topic-solved">
+          {{#if topic.has_accepted_answer }}
+            <i class="icon-done"></i>
+          {{else}}
+            &nbsp;
+          {{/if}}
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+<div class="more-topics">
+  <a href={{get-url (concat "/" filter)}} class="btn btn-default pull-right">Plus de sujets <i class="icon-arrow"></i></a>
+</div>
+{{else}}
+  <div class="no-topics">
+    <h3>{{i18n (concat "topics.none." filter)}}</h3>
+  </div>
+{{/if}}

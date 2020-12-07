@@ -1,20 +1,37 @@
-.icon-arrow {
+@mixin icon_from_assets($icon-url, $width, $height) {
   display: inline-block;
-  width: 16px;
-  height: 12px;
-  background-image: url($icon_arrow);
+  width: $width;
+  height: $height;
+  background-image: url($icon-url);
+}
+
+.icon-arrow {
+  @include icon_from_assets($icon_arrow, 16px, 12px);
 }
 
 .icon-salon-visio {
-  display: inline-block;
-  width: 47px;
-  height: 41px;
-  background-image: url($icon_salon_visio);
+  @include icon_from_assets($icon_salon_visio, 47px, 41px);
 }
 
 .icon-collaboration {
-  display: inline-block;
-  width: 48px;
-  height: 34px;
-  background-image: url($icon_collaboration);
+  @include icon_from_assets($icon_collaboration, 48px, 34px);
+}
+
+.icon-done {
+  @include icon_from_assets($icon_done, 14px, 10px);
+}
+
+.icon-eye {
+  @include icon_from_assets($icon_eye, 17px, 10px);
+  background-size:cover;
+}
+
+.icon-calendar {
+  @include icon_from_assets($icon_calendar, 14px, 12px);
+  background-size:cover;
+}
+
+.icon-talk {
+  @include icon_from_assets($icon_talk, 12px, 12px);
+  background-size:cover;
 }

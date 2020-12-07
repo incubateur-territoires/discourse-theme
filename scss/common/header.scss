@@ -1,34 +1,49 @@
 @import "colors";
 
-.footer {
-  font-family: 'Roboto', sans-serif;
-  background-color: #4f4f4f;
-  color: white;
-  padding: 40px;
-
-  a {
-    color: $white;
-    text-decoration: underline;
+#main{
+  .d-header {
+    height: 114px;
+    box-shadow: none;
+    .title img {
+      width: 114px;
+      height: 114px;
+    }
+    .title::after {
+      content: "Le forum de l’inclusion";
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1.25rem;
+      font-weight: bold;
+      line-height: 1.5;
+    }
   }
-}
+  .extra-info-wrapper {
+    display: none;
+  }
+  .header-buttons {
+    .sign-up-button,
+    .login-button {
+      text-transform: uppercase;
+      border-radius: 5px;
 
-.footer-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
+      height: 41px;
+      width: 137px;
+      color: $darkgreen;
+      font-weight: bolder;
+    }
+    .d-icon-user {
+      color: $darkgreen;
+    }
+    .sign-up-button {
+      border: 1px solid $darkgreen;
+      background-color: $white;
+    }
+    .sign-up-button:hover, .login-button:hover {
+      color: $white;
+      background-color: $darkgreen;
+    }
 
-.footer-column {
-  flex: 1;
-}
-
-.footer-logo-column {
-  .logo {
-    width: 89px;
-    height: 82px;
-    background: $white;
-    background-image: url($logo_ministere_travail);
-    background-size: cover;
+    .login-button {
+      background-color: transparent;
+    }
   }
 }

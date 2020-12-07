@@ -1,0 +1,14 @@
+<div>&nbsp;</div>
+{{#if categories}}
+  {{#if filteredCategories}}
+    <table class="category-list {{if showTopics "with-topics"}}">
+      <tbody aria-labelledby="categories-only-category">
+        {{#each categories as |category|}}
+          {{parent-category-row category=category showTopics=showTopics}}
+        {{/each}}
+      </tbody>
+    </table>
+  {{/if}}
+{{/if}}
+
+{{plugin-outlet name="below-categories-only" tagName="" args=(hash categories=categories showTopics=showTopics)}}

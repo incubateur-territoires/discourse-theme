@@ -1,0 +1,9 @@
+<div class="column categories">
+  <div aria-role="heading" aria-level="2">Les catégories</div>
+  {{categories-only categories=categories}}
+</div>
+
+<div class="column">
+  <div aria-role="heading" aria-level="2">Les sujets</div>
+  {{categories-topic-list topics=topics filter="latest" class="latest-topic-list"}}
+</div>

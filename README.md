@@ -34,6 +34,14 @@ To get a local copy up and running or to use this in production, follow these si
 Now, every change made to the theme will be updated on the forum.
 If changes are not picked up, you may need to ensure the right theme is being used.
 
+### Formatting
+
+You can autoformat the styles using [`scssfmt`](https://github.com/morishitter/scssfmt). You can install it with `yarn`, then run:
+
+```
+./node_modules/scssfmt/cli.js  scss/**/*.scss
+```
+
 ### Production
 
  - Import the theme in the admin panel (in `admin/customize/themes`) by providing this Git repository

@@ -1,0 +1,61 @@
+@import "colors";
+
+@mixin cta-answer-button-secondary {
+  & {
+    font-size: 1em;
+    border-radius: 3px;
+    background-color: transparent;
+    color: $darkgreen;
+    text-transform: uppercase;
+  }
+  &:hover {
+    color: $white;
+    background: $darkgreen;
+  }
+}
+
+// customization of the colors for the post menu button
+// originally in app/assets/stylesheets/desktop/topic-post.scss
+// due to the way styles are applied, it is not possible to simply include the primary or secondary cta styles
+nav.post-controls {
+  .actions {
+    // The post-controls buttons mostly are secondary buttons
+    button {
+      @include cta-answer-button-secondary;
+    }
+    .btn-flat {
+      .d-button-label,
+      .d-icon {
+        color: $darkgreen;
+      }
+      background-color: transparent;
+    }
+    .btn-flat:hover {
+      color: $white;
+      background-color: $darkgreen;
+      .d-button-label,
+      .d-icon {
+        color: white;
+      }
+    }
+
+    // The reply button is a primary button, so it has a dedicated style
+    .btn-flat + .reply {
+      background-color: $darkgreen;
+      border: 1px solid $darkgreen;
+      .d-button-label,
+      .d-icon {
+        color: white;
+      }
+
+      &:hover {
+        color: $white;
+        background-color: transparent;
+        .d-button-label,
+        .d-icon {
+          color: $darkgreen;
+        }
+      }
+    }
+  }
+}

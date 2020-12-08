@@ -1,0 +1,21 @@
+// Hide some search filters
+.search-info{
+  .sort-by{
+    .select-kit-body{
+      // masquer les filtres de tri "plus vu" et "dernier message".
+      // Is it fragile ? Oh yes it is. Is there a better solution ?
+      // Not without overriding templates or with plugins. Sadly both are fragile too.
+      .select-kit-collection {
+        li[data-name="Plus vu"], li[data-name="Dernier message"] {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// hide first-time/returning users
+// https://meta.discourse.org/t/post-notices-for-first-time-and-returning-users/112078
+.post-notice {
+  display: none;
+}

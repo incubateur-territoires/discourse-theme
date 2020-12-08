@@ -14,5 +14,9 @@
   &:hover {
     color: $white;
     background: $darkgreen;
+    .icon-arrow {
+      color: $white;
+      @include icon_from_assets($icon_arrow_hover, 16px, 12px);
+    }
   }
 }

@@ -6,6 +6,7 @@
       "bg_cta_visio_echange_image": "assets/bandeau-visio.jpg",
       "bg_search_home_image": "assets/visuels-home.jpg",
       "icon_arrow": "assets/ico-arrow.svg",
+      "icon_arrow_hover": "assets/ico-arrow-hover.svg",
       "icon_category": "assets/ico-category.svg",
       "icon_salon_visio": "assets/ico-salon.svg",
       "icon_collaboration": "assets/ico-collaboration.svg",

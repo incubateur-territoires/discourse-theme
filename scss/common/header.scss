@@ -1,6 +1,6 @@
 @import "colors";
 
-#main{
+#main {
   .d-header {
     height: 114px;
     box-shadow: none;
@@ -37,7 +37,8 @@
       border: 1px solid $darkgreen;
       background-color: $white;
     }
-    .sign-up-button:hover, .login-button:hover {
+    .sign-up-button:hover,
+    .login-button:hover {
       color: $white;
       background-color: $darkgreen;
     }

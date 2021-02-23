@@ -45,7 +45,6 @@
 </td>
 
 {{raw "list/posts-count-column" topic=topic}}
-
-<td class="num views {{topic.viewsHeat}}">{{number topic.views numberKey="views_long"}}</td>
+{{raw "list/view-count-column" topic=topic class="num" tagName="td"}}
 {{raw "list/activity-column" topic=topic class="num" tagName="td"}}
 {{raw "list/solved-column" topic=topic}}

@@ -1,0 +1,1 @@
+<td class="num views {{topic.viewsHeat}}">{{number topic.views numberKey="views_long"}}</td>

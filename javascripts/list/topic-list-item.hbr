@@ -44,11 +44,10 @@
   {{/if}}
 </td>
 
-{{raw "list/solved-column" topic=topic}}
-
 {{#if showPosters}}
   {{raw "list/posters-column" posters=topic.featuredUsers}}
 {{/if}}
+{{raw "list/solved-column" topic=topic}}
 
 {{raw "list/posts-count-column" topic=topic}}
 

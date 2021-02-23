@@ -1,0 +1,7 @@
+<td class="num ">
+  {{#if topic.has_accepted_answer }}
+    <i class="icon-done"></i>
+  {{else}}
+    &nbsp;
+  {{/if}}
+</td>

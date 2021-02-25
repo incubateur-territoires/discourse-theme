@@ -1,0 +1,9 @@
+@import "colors";
+
+.categories-topic-solved {
+    background-color: $verylightgreen;
+}
+
+.topic-list td + .categories-topic-solved {
+  text-align: center;
+}

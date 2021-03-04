@@ -14,6 +14,10 @@
       "icon_eye": "assets/ico-eyes.svg",
       "icon_calendar": "assets/ico-calendar.svg",
       "icon_talk": "assets/ico-messages.svg",
+      "marianne_regular_woff": "assets/Marianne-Regular.woff",
+      "marianne_regular_woff2": "assets/Marianne-Regular.woff2",
+      "marianne_bold_woff": "assets/Marianne-Bold.woff",
+      "marianne_bold_woff2": "assets/Marianne-Bold.woff2",
       "logo_ministere_travail": "assets/logo_ministere_du_travail.svg"
    }
 }

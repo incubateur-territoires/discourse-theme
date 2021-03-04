@@ -1,0 +1,11 @@
+@font-face {
+  font-family: MarianneBold;
+  src: url($marianne_bold_woff2) format('woff2'),
+      url($marianne_bold_woff) format('woff'),
+}
+
+@font-face {
+  font-family: Marianne;
+  src: url($marianne_regular_woff2) format('woff2'),
+    url($marianne_regular_woff) format('woff')
+}

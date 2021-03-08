@@ -59,6 +59,8 @@ If you are getting started making a discourse theme, I’ve found these links to
  - [How to add custom content that only appears on your homepage](https://meta.discourse.org/t/how-to-add-custom-content-that-only-appears-on-your-homepage/131415)
  - [Splitting up theme SCSS into multiple files](https://meta.discourse.org/t/splitting-up-theme-scss-into-multiple-files/115126)
  - [Splitting up theme Javascript into multiple files](https://meta.discourse.org/t/splitting-up-theme-javascript-into-multiple-files/119369)
+ - On customizing specific categories: [A](https://meta.discourse.org/t/adding-custom-css-on-particular-categories/140954) and [B](https://meta.discourse.org/t/modify-new-topic-editor-grey-guide-text-copy-per-category/128920/3). (I mostly want to ensure something is clear: I’m innocent, they made me do it.)
+
 
 ## Contributing
 

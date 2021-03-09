@@ -1,0 +1,14 @@
+div.d-editor-container div.d-editor-button-bar  {
+  button.link.btn.no-text.btn-icon:after {
+    content: "Ajouter un lien";
+  }
+  button.upload.btn.no-text.btn-icon:after {
+    content: "Importer un document";
+  }
+}
+
+.save-or-cancel {
+  .btn.btn-icon-text.btn-primary.create {
+    color: red !important;
+  }
+}

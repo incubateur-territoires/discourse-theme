@@ -12,3 +12,11 @@
 .topic-list td + .categories-topic-solved {
   text-align: center;
 }
+
+.topic-list td + .posts, .topic-list td + .activity, .topic-list td + .views, .posts .number {
+  color: $black;
+}
+
+.topic-list .activity {
+  width: 90px;
+}

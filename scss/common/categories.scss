@@ -1,5 +1,10 @@
 @import "colors";
 
+.navigation-container .select-kit {
+  // We want to hide the category and subcategory dropdown filters
+  display: none;
+}
+
 .categories-topic-solved {
     background-color: $verylightgreen;
 }

@@ -27,24 +27,20 @@
 
       height: 41px;
       width: 137px;
-      color: $darkgreen;
       font-weight: bolder;
     }
+
     .d-icon-user {
-      color: $darkgreen;
-    }
+      display: none
+;    }
     .sign-up-button {
       border: 1px solid $darkgreen;
-      background-color: $white;
-    }
-    .sign-up-button:hover,
-    .login-button:hover {
-      color: $white;
       background-color: $darkgreen;
+      color: $white;
     }
-
     .login-button {
       background-color: transparent;
+      color: $darkgreen;
     }
   }
 }

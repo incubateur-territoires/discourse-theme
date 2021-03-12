@@ -46,5 +46,5 @@
 
 {{raw "list/posts-count-column" topic=topic}}
 {{raw "list/view-count-column" topic=topic class="num" tagName="td"}}
-{{raw "list/activity-column" topic=topic class="num" tagName="td"}}
+{{raw "list/activity-column" topic=topic class="num activity" tagName="td"}}
 {{raw "list/solved-column" topic=topic}}

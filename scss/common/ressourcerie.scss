@@ -1,3 +1,5 @@
+@import "colors";
+
 div.d-editor-container div.d-editor-button-bar  {
   button.link.btn.no-text.btn-icon:after {
     content: "Ajouter un lien";
@@ -9,6 +11,13 @@ div.d-editor-container div.d-editor-button-bar  {
 
 .save-or-cancel {
   .btn.btn-icon-text.btn-primary.create {
-    color: red !important;
+    border-radius: 5px;
+
+    height: 41px;
+    font-weight: bolder;
+
+    border: 1px solid $darkgreen;
+    background-color: $darkgreen;
+    color: $white;
   }
 }

@@ -1,0 +1,23 @@
+@import "colors";
+
+div.d-editor-container div.d-editor-button-bar  {
+  button.link.btn.no-text.btn-icon:after {
+    content: "Ajouter un lien";
+  }
+  button.upload.btn.no-text.btn-icon:after {
+    content: "Importer un document";
+  }
+}
+
+.save-or-cancel {
+  .btn.btn-icon-text.btn-primary.create {
+    border-radius: 5px;
+
+    height: 41px;
+    font-weight: bolder;
+
+    border: 1px solid $darkgreen;
+    background-color: $darkgreen;
+    color: $white;
+  }
+}

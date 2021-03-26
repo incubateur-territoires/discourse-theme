@@ -1,7 +1,7 @@
 @import "colors";
 
-.navigation-container .select-kit {
-  // We want to hide the category and subcategory dropdown filters
+.navigation-container .category-breadcrumb  {
+  // We want to hide the category and subcategory dropdown filters, but not the admin category filter
   display: none;
 }
 

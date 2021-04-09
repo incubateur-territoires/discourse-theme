@@ -1,0 +1,8 @@
+hotjar_site_id:
+    type: string
+    default: ''
+    description: Site ID
+hotjar_url:
+    type: string
+    default: ''
+    description: Matomo URL

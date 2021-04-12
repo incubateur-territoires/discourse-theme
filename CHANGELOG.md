@@ -4,6 +4,11 @@ Toutes les modifications notables apportées au forum de l’inclusion sont docu
 
 Le forum dans son ensemble est réparti sur plusieurs projets (theme, discourse, paramètres). Ce changelog centralise le travail fait dans son ensemble, pas seulement sur le thème.
 
+## 2021-04-12
+
+ - Changement de logo
+ - Changement d’adresse email pour les notifications
+
 ## 2021-03-29
 
  - Migration vers Discourse SaaS

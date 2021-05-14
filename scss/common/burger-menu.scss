@@ -1,0 +1,12 @@
+.hamburger-panel {
+  .menu-container-footer-links {
+    .faq-link, .about-link {
+      display: none !important;
+    }
+  }
+  .menu-container-general-links {
+    .latest-topics-link, .top-topics-link, .cakeday-link {
+      display: none !important;
+    }
+  }
+}

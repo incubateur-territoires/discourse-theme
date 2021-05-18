@@ -63,6 +63,7 @@ $tile-background_image: false;
     font-size: $font-up-5;
     font-weight: normal;
     line-height: $line-height-medium;
+    padding-bottom: 1em;
 
     @include breakpoint(tablet) {
       font-size: $font-up-4;
